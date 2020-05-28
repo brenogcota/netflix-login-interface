@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+input, button{
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+html {
+    font-size: 60.2%;
+}
+
+body {
+    font-size: 2.2rem;
+    font-family: 'Roboto';
+    background-image: url("./images/BR-pt-20200302-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+}
+
+a, button {
+    cursor: pointer;
+}
+
+header img{
+    width: 12rem;
+    height: 6rem;
+    margin: 5vh 5%;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10vh 0;
+}
+
+.main section {
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0);
+    padding: 2.2vh 2.2vw;
+
+}
+
+.main section h1{
+    color: #fff;
+    margin: 5.9vh 0 4.9vh;
+
+}
+
+input, button {
+    padding: 2.6vh 3.9vw;
+    border-radius: 4px;
+    width: 400px;
+    font-size: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    margin: 1.6vh 0;
+    background-color: rgb(37, 37, 37);
+    
+}
+
+.form button {
+    margin: 2.6vh 0;
+    background-color: rgb(238, 10, 10);
+   
+    color: #fff;
+    font-weight: 700;
+}
+
+.remember-me {
+    color: #666;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+.remember-me a {
+    text-decoration: none;
+    color: #666;
+    font-size: 1.7rem;
+}
+
+.check-box {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 200px;
+}
+
+
+.check-box p {
+    font-size: 1.7rem;
+    white-space: nowrap;
+    margin-right: 40px;
+}
+
+
+.form-footer {
+    margin: 10vh 0;
+    width: 400px;
+    color: #666;
+    font-size: 1.7rem;
+}
+
+.form-footer > p {
+    font-size: 1.9rem !important;
+}
+
+.form-footer a {
+    text-decoration: none;
+    color: rgb(0, 68, 255);
+}
+
+.form-footer img {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.facebook {
+    margin: 0 0 1.9vh;
+}
+
+.facebook p {
+    margin-left: 1.2vh;
+}
+
+.form-footer p, span {
+    font-size: 2.3rem;
+}
+
+.form-footer span {
+    color: #fff;
+    margin-left: 1.2vw;
+}
+
+.new {
+    margin: 0 0 1.9rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(20, 20, 20);
+    color: #666;
+    height: 40vh;
+    
+}
+
+.main-footer {
+    justify-content: center;
+    width: 70%;
+}
+
+.main-footer p {
+    font-size: 2.1rem;
+}
+
+.main-footer a {
+    font-size: 1.9rem;
+}
+
+.terms {
+    margin: 2.0rem 0;
+    justify-content: space-between;
+}
+
+.box-lang select {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    color: #fff;
+}
+
+
+
+@media (max-width: 700px) {
+    
+    html {
+        font-size: 50%;
+    }
+
+    body {
+        background-image: none;
+        background-color: rgb(0, 0, 0);
+    }
+
+    header img{
+        width: 16rem;
+        height: 5rem;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 0.2vh 0;
+    }
+}
