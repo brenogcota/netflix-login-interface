@@ -64,7 +64,7 @@ header img{
 input, button {
     padding: 2.6vh 3.9vw;
     border-radius: 4px;
-    width: 50vh;
+    width: 100%;
     font-size: 2rem;
 }
 
