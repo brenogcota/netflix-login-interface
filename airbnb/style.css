@@ -124,6 +124,7 @@ section {
     border-radius: 8px;
     color: #eee;
     border: none !important;
+    font-size: 1.8rem;
 
     width: 100%;
 }
