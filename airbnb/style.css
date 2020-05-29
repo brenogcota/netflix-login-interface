@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+input, button{
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+html {
+    font-size: 60.2%;
+}
+
+body {
+    font-size: 2.2rem;
+    font-family: 'Roboto';
+    background-image: url("./images/BR-pt-20200302-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    color: rgb(65, 64, 64);
+}
+
+a, button {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14vh;
+    width: 100%;
+    height: 14vh;
+
+    border-bottom: 2px solid #e3e3e3;
+}
+
+header img {
+    width: 18vh;
+    height: 5.4vh;
+
+    margin: 4vh 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    padding: 1.9vh 2.4vh;
+    font-size: 1.6rem;
+    margin: 0 1.1rem;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    background-color: #eee;
+    border-radius: 23px;
+}
+
+.btn {
+    padding: 1.9vh 3.4vh;
+    border: 1px solid #e3e3e3;
+    box-shadow: 1px 2px 2px 1px #e3e3e3;
+    border-radius: 23px;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0;
+
+    max-width: 320px;
+    border: 1px solid #eee;
+    padding: 1.3vh 2.4vh;
+  
+}
+
+.main p {
+    font-size: 3.9vh;
+    margin: 0 0 1vh;
+}
+
+.main select {
+    padding: 1.9vh 2.4vh;
+    border: 1.4px solid #e3e3e3;
+    border-radius: 6px 6px 0 0;
+
+    width: 100%;
+}
+
+.main input {
+    padding: 1.9vh 2.4vh;
+    border: 1.4px solid #e3e3e3;
+    border-radius: 0 0 6px 6px;
+    margin: 0 0 1vh;
+
+    width: 100%;
+}
+
+.main span {
+    font-size: 2vh;
+    margin: 2vh 0 4vh;
+}
+
+#btn-send {
+    padding: 1.9vh 2.4vh;
+    background-image: linear-gradient(to bottom right, rgba(255, 0, 140, 0.876), rgba(255, 0, 21, 0.938));;
+    border-radius: 8px;
+    color: #eee;
+    border: none !important;
+
+    width: 100%;
+}
+
+.main button {
+    padding: 1.9vh 2.4vh;
+    border: 2px solid #999;
+    margin: 1vh 0;
+    border-radius: 8px;
+    color: rgb(70, 70, 70);
+
+    width: 100%;
+}
+
+.main button:hover {
+    border: 2px solid rgb(29, 29, 29);
+}
+
+.main button > img{
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.signup {
+    display: flex;
+    margin: 0.9rem 0;
+}
+
+.signup p, a {
+    font-size: 1.6rem;
+    color: #333;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    border-top: 1.6px solid #eee;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 6vh 0;
+    width: 80%;
+
+}
+
+.main-footer section {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: flex-start;
+}
+
+.main-footer p {
+    font-size: 1.4rem;
+    color: rgb(29, 29, 29);
+    font-weight: 600;
+    margin: 0 0 1.6vh;
+}
+
+.main-footer a {
+    text-decoration: none;
+}
+
+
+.about {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-l ul {
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.about-l ul li {
+    font-size: 1.7rem;
+    
+    margin: 0 1.4rem;
+}
+
+.about-l ul > li:first-child {
+    list-style: none;
+}
+
+.about-r {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-r a {
+    font-size: 1.7rem;
+    margin: 0 1.2rem 1.2rem;
+}
+
+.about-r img{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+@media (max-width: 700px) {
+
+    
+    header {
+        display: none;
+    }
+
+    .main {
+        min-width: 90vw;
+    }
+
+    .main-footer {
+        display: none;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        border-top: 1.6px solid #eee;
+        justify-content: start;
+        align-items: flex-start;
+        width: 100%;  
+    }
+}
