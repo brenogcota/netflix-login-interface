@@ -85,7 +85,7 @@ section {
     align-items: center;
     margin: 5vh 0;
 
-    max-width: 320px;
+    max-width: 25vw;
     border: 1px solid #eee;
     padding: 1.3vh 2.4vh;
   
@@ -169,8 +169,6 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
-
-    
 }
 
 .main-footer {
@@ -239,12 +237,16 @@ footer {
 @media (max-width: 700px) {
 
     
+    html {
+        font-size: 50%;
+    }
+
     header {
         display: none;
     }
 
     .main {
-        min-width: 90vw;
+        min-width: 100%;
     }
 
     .main-footer {

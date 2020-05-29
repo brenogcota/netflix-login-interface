@@ -32,6 +32,7 @@ header img{
     width: 12rem;
     height: 6rem;
     margin: 5vh 5%;
+
 }
 
 .flex-row {
@@ -51,6 +52,7 @@ header img{
     background-color: rgb(0, 0, 0);
     padding: 2.2vh 2.2vw;
 
+    max-width: 100%;
 }
 
 .main section h1{
@@ -62,7 +64,7 @@ header img{
 input, button {
     padding: 2.6vh 3.9vw;
     border-radius: 4px;
-    width: 400px;
+    width: 50vh;
     font-size: 2rem;
 }
 
@@ -71,6 +73,9 @@ input, button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    max-width: 100%;
+    
 }
 
 .form input {
@@ -91,7 +96,7 @@ input, button {
     color: #666;
     justify-content: space-between;
     align-items: center;
-    width: 400px;
+    width: 100%;
 }
 
 .remember-me a {
@@ -117,7 +122,7 @@ input, button {
 
 .form-footer {
     margin: 10vh 0;
-    width: 400px;
+    width: 100%;
     color: #666;
     font-size: 1.7rem;
 }
@@ -218,4 +223,6 @@ footer {
     
         margin: 0.2vh 0;
     }
+
+       
 }
