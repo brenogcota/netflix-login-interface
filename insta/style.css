@@ -110,7 +110,7 @@ header {
     justify-content: space-between;
 
     padding: 0 1.2vw;
-    margin: 8vh 10.3vw;
+    margin: 12vh 10.3vw;
     width: 50vw;
     height: 18vh;
     align-items: center;
@@ -299,7 +299,7 @@ header {
 
 .main-right {
     padding: 0 1vw;
-    margin: 8vh 0;
+    margin: 12vh 0;
     width: 25vw;
     height: 18vh;
     align-items: center;
