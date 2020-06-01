@@ -298,6 +298,7 @@ header {
 
 
 .main-right {
+    position: fixed;
     padding: 0 1vw;
     margin: 12vh 0;
     width: 25vw;

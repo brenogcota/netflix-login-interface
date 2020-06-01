@@ -1,0 +1,317 @@
+
+::-webkit-scrollbar {
+    width: 16px;
+    height: 0px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: rgb(241, 239, 239);
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: rgb(216, 215, 215); 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 254, 254); 
+}  
+
+
+/* Reset css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+input, button{
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 60.2%;
+}
+
+body {
+    font-size: 2.2rem;
+    font-family: 'Roboto';
+    color: rgb(65, 64, 64);
+
+    background-color: #e4e2e2;  
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+header {
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+
+    background-color: #e4e2e2;
+    padding: 0 2.2vw;
+}
+
+header > a {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: rgb(235, 15, 70);
+}
+
+header > a:hover {
+    border-bottom: 1.5px solid rgb(235, 15, 70);
+    transition-delay: 400ms;
+
+    cursor: pointer;
+}
+
+.menu button {
+    margin: 0 0.7vw;
+    align-items: center;
+
+    color: #666;
+}
+
+.menu button:hover {
+    color: rgb(235, 15, 70);
+    border-bottom: 1.2px solid rgb(235, 15, 70);
+    transition-delay: 400ms;
+    
+    cursor: pointer;
+}
+
+.menu a {
+    color: rgb(235, 15, 70);
+    font-size: 1.5rem;
+}
+
+.order {
+    align-items: center;
+}
+
+.order p {
+    font-size: 1.6rem;  
+    margin: 0 1.2vw;
+    
+    cursor: pointer;
+}
+
+.order img {
+    margin: 0 1vw;
+    cursor: pointer;
+}
+
+.order button {
+    padding: 1.8vh 1vw;
+    border-radius: 2rem;
+    background-color: rgb(235, 15, 70);
+    color: #eee;
+}
+
+.order button:hover {
+    background-color: rgba(235, 15, 70, 0.808);
+
+    cursor: pointer;
+}
+
+#primary-main > img {
+    margin: 10vh 0;
+    width: 30vw;
+    height: 60vh;
+
+    border-radius: 50%;
+}
+
+.main {
+    margin: 16vh 8vw;
+    width: 40vw;
+}
+
+.main h1 {
+    color: rgb(65, 64, 64);
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.search-box {
+    align-items: center;
+    padding: 2vh 0 2vh 0.9vw;
+    margin: 6vh 0;
+    width: 50%;
+    height: 6vh;
+    background-color: #fff;
+
+    border-radius: 2rem;
+}
+
+.search-box input {
+    align-items: center;
+    padding: 2vh 0 2vh 0.9vw;
+    margin: 6vh 0;
+    width: 100%;
+    height: 6vh;
+}
+
+.search-box > button {
+    padding: 1.5vh 0.9vw;
+    color: #fff;
+    font: bold;
+
+    background-color: rgba(235, 15, 70);
+    border-radius: 2rem;
+
+    cursor: pointer;
+}
+
+section > p {
+    margin: 0 2.6vw;
+}
+
+.slide-box {
+    margin: 4rem 0;
+    width: 40vw;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.cards {
+    align-items: center;
+    padding: 2.9vh 1.9vw;
+    border: 1px solid #cac9c9;
+    border-radius: 2rem;
+    margin: 2rem 2rem;
+
+    box-shadow: 1px 1px 1px 1px #cac9c9;
+}
+
+.cards img {
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.card {
+    align-items: center;
+    white-space: nowrap;
+    margin: -5vh auto;
+    padding: 0 0.9vw;
+
+    width: 96%;
+    height: 8vh;
+    color: rgb(12, 12, 12);
+
+    cursor: pointer;
+}
+
+.nav-bar {
+    display: none;
+}
+
+@media (max-width: 650px) {
+    html {
+        font-size: 50%;
+    }
+    
+    .menu {
+        display: none;
+    }
+    
+    .order p {
+        display: none;
+    }
+    
+    .order img {
+        margin: 0 1vw;
+        cursor: pointer;
+    }
+    
+    .order button {
+        display: none;
+    }
+    
+    
+    #primary-main > img {
+        display: none;
+    }
+    
+    .main {
+        margin: 16vh 8vw 0;
+        width: 100%;
+    }
+    
+    .search-box {
+        padding-left: 1.9vw;
+        width: 100%;
+        height: 8vh;
+        background-color: #fff;
+    
+        border-radius: 4rem;
+    }
+    
+    .search-box input {
+        padding-left: 1.9vw;
+        width: 100%;
+        height: 8vh;
+    }
+    
+    .search-box > button {
+        padding: 2vh 1.9vw;
+        border-radius: 4rem;
+    }
+    
+    .slide-box {
+        width: 100%;
+        margin: auto;
+
+    }
+    
+    .cards {
+        align-items: center;
+        padding: 2.9vh 1.9vw;
+        border: 1px solid #cac9c9;
+        border-radius: 2rem;
+
+        box-shadow: 1px 1px 1px 1px #cac9c9;
+    }
+    
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 8vh;
+
+        padding: 0 8.2vw;
+        background-color: #e4e2e2;
+    }
+    
+}
